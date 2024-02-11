@@ -1,0 +1,81 @@
+.section{
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    margin-top: 20px;
+    background-color: #9a979795;
+    width: 350px;
+    height: 230px;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    opacity: .7;
+}
+input{
+    padding: 10px 5px;
+    border: 1.3px solid #ccc;
+    border-radius: 5px;
+}
+.btn{
+    width: 160px;
+    margin-left: 85px;
+    cursor: pointer;
+    background-color: #ea1c1c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.cards{
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 280px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 5px rgb(36, 36, 36);
+}
+
+.foto{
+    width: 100px;
+}
+p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.delete-button{
+    width: 50px;
+    height: 50px;
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+
+}
